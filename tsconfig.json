@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "lib": ["es5", "es6"],
-    "target" : "ES6",
-    "module": "CommonJS",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "outDir": "./build",
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "skipLibCheck": true
+    "sourceMap": true
   }
 }
